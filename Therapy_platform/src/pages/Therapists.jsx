@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import Navbar from "../components/Navbar";
 
 const therapists = [
@@ -47,9 +48,11 @@ export default function Therapists() {
                 ⭐⭐⭐⭐ {t.rating}
               </p>
 
-              <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg">
-                Book Session
-              </button>
+              <Link to="/booking">
+                <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg">
+                  Book Session
+                </button>
+              </Link>
 
             </div>
 

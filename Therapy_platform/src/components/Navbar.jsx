@@ -27,9 +27,15 @@ export default function Navbar() {
 
           <Link
             to="/signup"
-            className="bg-gray-600 text-white px-4 py-0 rounded-lg font-bold"
+            className="bg-gray-600 text-white px-4 py-0 rounded-lg font-bold hover:text-green-300"
           >
             Sign Up
+          </Link>
+
+          <Link to="/dashboard">
+              <button className="bg-gray-600 text-white px-6 py-0 rounded-lg font-bold hover:text-green-300">
+                Dashboard
+              </button>
           </Link>
 
         </div>

@@ -1,7 +1,9 @@
 import Navbar from "../components/Navbar";
+import DashboardCard from "../components/DashboardCard";
+import MoodTracker from "../components/MoodTracker";
+import Journal from "../components/Journal";
 
 export default function Dashboard() {
-
   return (
     <div className="min-h-screen bg-gray-50">
 
@@ -15,17 +17,17 @@ export default function Dashboard() {
 
         <div className="grid md:grid-cols-3 gap-8">
 
-          <div className="bg-white p-6 rounded-xl shadow">
-            Upcoming Sessions
-          </div>
+          <DashboardCard title="Upcoming Sessions">
+            Your next session is tomorrow at 10:00 AM
+          </DashboardCard>
 
-          <div className="bg-white p-6 rounded-xl shadow">
-            Mood Journal
-          </div>
+          <DashboardCard title="Mood Tracker">
+            <MoodTracker />
+          </DashboardCard>
 
-          <div className="bg-white p-6 rounded-xl shadow">
-            Messages
-          </div>
+          <DashboardCard title="Journal">
+            <Journal />
+          </DashboardCard>
 
         </div>
 

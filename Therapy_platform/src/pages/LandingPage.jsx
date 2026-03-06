@@ -34,7 +34,16 @@ export default function LandingPage() {
             Browse Therapists
           </Link>
 
+          <Link to="/booking">
+              <button className="bg-blue-600 text-white px-6 py-3 rounded-lg">
+                Book a Session
+              </button>
+          </Link>
+
+          
         </div>
+
+
 
       </section>
 

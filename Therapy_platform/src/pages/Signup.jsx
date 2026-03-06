@@ -3,7 +3,7 @@ import Navbar from "../components/Navbar";
 export default function Signup() {
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-600">
 
       <Navbar />
 
@@ -17,18 +17,18 @@ export default function Signup() {
 
           <input
             placeholder="Full Name"
-            className="w-full border p-3 mb-4 rounded-lg"
+            className="w-full border p-3 mb-4 rounded-lg placeholder-black font-bold"
           />
 
           <input
             placeholder="Email"
-            className="w-full border p-3 mb-4 rounded-lg"
+            className="w-full border p-3 mb-4 rounded-lg placeholder-black font-bold"
           />
 
           <input
             placeholder="Password"
             type="password"
-            className="w-full border p-3 mb-4 rounded-lg"
+            className="w-full border p-3 mb-4 rounded-lg placeholder-black font-bold"
           />
 
           <button className="w-full bg-green-600 text-white py-3 rounded-lg">
