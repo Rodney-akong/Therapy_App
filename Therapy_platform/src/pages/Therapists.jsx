@@ -16,13 +16,13 @@ const therapists = [
 export default function Therapists() {
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-600">
 
       <Navbar />
 
       <div className="max-w-6xl mx-auto px-6 py-16">
 
-        <h1 className="text-3xl font-bold mb-10">
+        <h1 className="text-3xl font-bold mb-10 text-center text-white">
           Find a Therapist
         </h1>
 
@@ -32,22 +32,22 @@ export default function Therapists() {
 
             <div
               key={index}
-              className="bg-white p-6 rounded-xl shadow-md"
+              className="bg-green-100 p-6 rounded-xl shadow-md"
             >
 
-              <h3 className="text-xl font-semibold">
+              <h3 className="text-2xl font-semibold ">
                 {t.name}
               </h3>
 
-              <p className="text-gray-600">
+              <p className="text-gray-600 font-bold">
                 Specialty: {t.specialty}
               </p>
 
               <p className="text-yellow-500">
-                ⭐ {t.rating}
+                ⭐⭐⭐⭐ {t.rating}
               </p>
 
-              <button className="mt-4 bg-green-600 text-white px-4 py-2 rounded-lg">
+              <button className="mt-4 bg-green-500 text-white px-4 py-2 rounded-lg">
                 Book Session
               </button>
 
