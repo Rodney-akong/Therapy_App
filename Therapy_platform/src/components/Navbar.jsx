@@ -33,7 +33,7 @@ export default function Navbar() {
           </Link>
 
           <Link to="/dashboard">
-              <button className="bg-gray-600 text-white px-6 py-0 rounded-lg font-bold hover:text-green-300">
+              <button className="bg-gray-600 text-green-300 px-6 py-0 rounded-lg font-bold hover:text-white">
                 Dashboard
               </button>
           </Link>
