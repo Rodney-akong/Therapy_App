@@ -1,16 +1,122 @@
-# React + Vite
+Therapy Platform (React + Tailwind)
+Overview
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Therapy Platform is a simple web application that helps users find therapists and book therapy sessions.
+The goal of the project is to create a clean and calming interface where users can explore therapists and schedule sessions easily.
 
-Currently, two official plugins are available:
+This project was built using React for the frontend and Tailwind CSS for styling.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Features
+1. Landing Page
 
-## React Compiler
+Introduction to the therapy platform
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+Navigation to login or signup
 
-## Expanding the ESLint configuration
+2. User Authentication Pages
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+Login page
+
+Signup page
+
+3. Therapist Directory
+
+List of therapists with:
+
+Name
+
+Specialty
+
+Rating
+
+Each therapist card includes a Book Session button.
+
+4. Booking Page
+
+Users can book a therapy session.
+
+Displays available time slots.
+
+Allows users to confirm a booking.
+
+5. Navigation
+
+Navbar available across pages
+
+Users can navigate between:
+
+Landing Page
+
+Therapists Page
+
+Dashboard
+
+Booking Page
+
+Tech Stack
+
+Frontend:
+
+React
+
+React Router
+
+Styling:
+
+Tailwind CSS
+
+Development Tool:
+
+Vite
+
+Project Structure
+src
+│
+├── components
+│   ├── Navbar.jsx
+│   └── TherapistCard.jsx
+│
+├── pages
+│   ├── LandingPage.jsx
+│   ├── Login.jsx
+│   ├── Signup.jsx
+│   ├── Dashboard.jsx
+│   ├── Therapists.jsx
+│   └── Booking.jsx
+│
+├── App.jsx
+└── main.jsx
+Installation
+
+
+Future Improvements
+
+Planned features for the platform include:
+
+Video therapy sessions
+
+Real-time messaging with therapists
+
+Mood tracking and journaling
+
+Secure user authentication
+
+Online payments for therapy sessions
+
+Therapist search filters
+
+Purpose of the Project
+
+This project is part of a learning journey to understand:
+
+React component architecture
+
+Routing in React applications
+
+Modern UI design with Tailwind CSS
+
+Building real-world platforms such as mental health services.
+
+Author
+
+Rodney Akong
